@@ -22,11 +22,11 @@ export const Home = () => {
         })
         .then((response) => response.json())
         .then((data) => {
-            console.log("Usuarios Registrados:", data);
-            setUsers(data); // Guardar usuarios en el estado
+            console.log("", data);
+            setUsers(data); // save users
         })
         .catch((err) => {
-            console.error("Error al llamar usuarios:", err);
+            console.error(" :", err);
         });
     };
 
