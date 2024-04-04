@@ -11,7 +11,7 @@ const ContactDetails = () => {
         fetch(url)
             .then((response) => response.json())
             .then((data) => {
-                console.log("Contacto:", data);
+                console.log("Contacts:", data);
                 setContact(data);
             })
             .catch((error) => {
@@ -29,7 +29,7 @@ const ContactDetails = () => {
             <div className="contact-details">
                 <p><strong>Name</strong> {contact.full_name}</p>
                 <p><strong>Email:</strong> {contact.email}</p>
-                <p><strong>TPhone:</strong> {contact.phone}</p>
+                <p><strong>Phone:</strong> {contact.phone}</p>
                 <p><strong>Address:</strong> {contact.address}</p>
             </div>
         </div>
