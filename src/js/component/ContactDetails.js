@@ -27,10 +27,10 @@ const ContactDetails = () => {
         <div className="container">
             <h1>Contact Details</h1>
             <div className="contact-details">
-                <p><strong>Nombre:</strong> {contact.full_name}</p>
+                <p><strong>Name</strong> {contact.full_name}</p>
                 <p><strong>Email:</strong> {contact.email}</p>
-                <p><strong>Teléfono:</strong> {contact.phone}</p>
-                <p><strong>Dirección:</strong> {contact.address}</p>
+                <p><strong>TPhone:</strong> {contact.phone}</p>
+                <p><strong>Address:</strong> {contact.address}</p>
             </div>
         </div>
     );

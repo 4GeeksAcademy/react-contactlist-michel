@@ -7,7 +7,7 @@ export const Home = () => {
     const { store, actions } = useContext(Context);
     const [users, setUsers] = useState([]);
 
-    const urlUsersRegistered = "https://playground.4geeks.com/apis/fake/contact/agenda/josereimondez29";
+    const urlUsersRegistered = "";
 
     useEffect(() => {
         usersRegistered();
